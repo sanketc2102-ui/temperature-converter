@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="contianer">
+      <form>
+        <h2>enter temperature</h2>
+        <div class="formField">
+          <label for="degree">temperature</label>
+          <div class="degree-form-field">
+            <input type="number" id="degree" />
+            <select id="fromUnit">
+              <option value="cel">°C</option>
+              <option value="fer">°F</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="formField">
+          <label for="toUnit">Convert To</label>
+          <select id="toUnit">
+            <option value="fer">fahrenheit</option>
+            <option value="cel">celcuis</option>
+          </select>
+        </div>
+
+        <button>convert ➡️</button>
+      </form>
+
+      <div class="result">
+        <div class="display">
+          <h1 class="resultVal">32</h1>
+          <p class="resultUnit">°F</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

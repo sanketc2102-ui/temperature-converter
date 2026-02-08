@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+form {
+  color: #20b2aa;
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  flex: 1;
+}
+
+input,
+select,
+option {
+  padding: 8px;
+  font-size: medium;
+  border: 1px solid lightgray;
+  outline: black;
+}
+
+.contianer {
+  border: 3px solid #20b2aa;
+  border-radius: 10px;
+  padding: 50px;
+  display: flex;
+  gap: 30px;
+  width: 50vw;
+  height: 50vh;
+}
+
+.formField {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.result {
+  color: white;
+  background-color: #20b2aa;
+  flex: 1;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.display {
+  position: relative;
+  padding: 15px;
+}
+
+.resultUnit {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.degree-form-field {
+  display: flex;
+  gap: 0;
+}
+
+button {
+  color: white;
+  background-color: #20b2aa;
+  text-transform: capitalize;
+  font-size: larger;
+  border: none;
+  width: fit-content;
+  padding: 15px 20px;
+  border-radius: 999px;
+  cursor: pointer;
+}
